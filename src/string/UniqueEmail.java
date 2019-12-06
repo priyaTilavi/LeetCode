@@ -38,9 +38,20 @@ public class UniqueEmail {
   public static void main(String[] args) {
       String[] array= {"test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"};
       System.out.println(numUniqueEmails(array));
+
+        Trial obj= new Trial();
+      List<String> temp=new ArrayList<String>();
+      temp.add("jkhk 65 6765 77 876");
+      temp.add("jk4fdhk  44 77 65876");
+      temp.add("jkhk j jhjh kjklj l");
+      temp.add("jkhk hgh hgh j");
+        obj.prioritizedOrders(4,temp);
+
   }
     public static int numUniqueEmails(String[] emails) {
         Set<String> uniqueEmails = new HashSet<>();
+        String s= "AOB";
+        System.out.println(s.toLowerCase());
         for(String email:emails) {
             //split on @ and separate local and domain
             String[] split = email.split("@");
@@ -58,6 +69,7 @@ public class UniqueEmail {
             //push it to list
             uniqueEmails.add(email);
             //size of list
+
         }
         return uniqueEmails.size();
     }
