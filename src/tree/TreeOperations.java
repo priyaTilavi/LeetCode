@@ -34,6 +34,22 @@ public class TreeOperations {
             return rightDepth+1;
 
     }
+    public int deepestLeavesSum(BST.Node root) {
+
+        int level= findDepthOfTheTree(root);
+        System.out.println("level:"+level);
+        return findSum(root, level);
+
+    }
+
+    public int findSum(BST.Node root, int level){
+
+        if (root==null) return 0;
+        if(level== 1) {
+            return root.key;
+        }
+        return findSum(root.left,level-1) + findSum(root.right,level-1);
+    }
 
 //    public BST.Node searchNode(BST.Node root, int val){
 //        if (root==null) return null;
@@ -47,5 +63,14 @@ public class TreeOperations {
 //        }
 //        return
 //    }
+    public int sumAllNodes(BST.Node root){
+        if(root==null){
+            return 0;
+        }
+        else {
+            return root.key + sumAllNodes(root.left)+ sumAllNodes(root.right);
+        }
+    }
+
 
 }

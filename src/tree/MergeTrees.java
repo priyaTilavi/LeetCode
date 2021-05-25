@@ -14,5 +14,23 @@ public class MergeTrees {
 
         return newTree;
     }
+//    Given the root node of a binary search tree, return the sum of values of all nodes with value between L and R (inclusive).
+    public int rangeSumBST(BST.Node root, int L, int R) {
+        int result = dfs(root,L, R, 0);
+        return result;
+    }
+
+    public int dfs(BST.Node root, int L, int R, int result){
+        if(root.key >= L && root.key<= R){
+            result += root.key;
+        }
+        if(root.key>L){
+            result = dfs(root.left, L, R, result);
+        }
+        if(root.key<R){
+           result= dfs(root.right, L, R, result);
+        }
+        return result;
+    }
 
 }

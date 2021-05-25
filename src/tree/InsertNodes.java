@@ -4,7 +4,7 @@ public class InsertNodes {
 
     public BST.Node insert(BST.Node root, int value) {
         if(root==null)
-            return root= new BST.Node(value);
+            return new BST.Node(value);
         if(value<root.key){
             root.left =insert(root.left,value);
         }

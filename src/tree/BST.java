@@ -1,5 +1,10 @@
 package tree;
 
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.Map;
+
 public class BST {
     static class Node {
         int key;
@@ -21,26 +26,28 @@ public class BST {
         MergeTrees merge = new MergeTrees();
         TreeOperations operations= new TreeOperations();
         int[] treeValues = {4,3,5,1,7};
-        int[] tree2Values = {6, 3, 2, 1, 4};
+        int[] tree2Values = {6, 3, 2, 1, 4, 8, 9};
 
         //insert
         root = insert.createTreeFromArray(treeValues, root);
         root2 = insert.createTreeFromArray(tree2Values, root2);
 
-        //inorder
         //print.inorder(root);
+        //System.out.println("sum:"+operations.deepestLeavesSum(root));
+        //print.printDFS(root2);
 
+        //System.out.println("smallest=" + print.findSmallest(root).key);
 
-        //find smallest node
-        System.out.println("smallest=" + print.findSmallest(root).key);
-
-        //printLeafNodes
-        print.printLeafNodes(root);
-        Node merged= merge.mergeTrees(root,root2);
-        System.out.println("depth="+operations.findDepthOfTheTree(merged));
+        //print.printLeafNodes(root);
+        //Node merged= merge.mergeTrees(root,root2);
+        //System.out.println("depth="+operations.findDepthOfTheTree(merged));
+        System.out.println("depth="+operations.findDepthOfTheTree(root));
         //print.inorder(merged);
 
-        System.out.println("==>"+operations.isUnivaluated(root));
+        //System.out.println("==>"+operations.isUnivaluated(root));
+//        System.out.println("sum:"+operations.sumAllNodes(root));
+        print.printBFS(root);
+
     }
 
 
