@@ -6,7 +6,10 @@ import java.util.List;
 import java.util.Stack;
 
 public class Trial {
-
+    public static void main(String[] args) {
+        Trial trial = new Trial();
+        System.out.println(trial.isPrime("This is"));
+    }
 
     public List<String> prioritizedOrders(int numOrders, List<String> orderList)
     {
@@ -64,7 +67,7 @@ public class Trial {
 
     private boolean isPrime(String s) {
         s=s.replaceAll(" ","");
-        if(s.matches("[a-z]+"))
+        if(s.matches("[a-zA-Z]+"))
             return true;
 
         else

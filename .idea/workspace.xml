@@ -2,31 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7276dc18-48e9-46a6-beae-dbf729f35f3a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/ProblemSet1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/MediumProblems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/Operations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/EasyProblemSet1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/MediumProblems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/EasyProblemSet2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProblemSolving.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/linkedlist/LinkedInOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/linkedlist/LinkedInOperation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/string/JewelsAndStones.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/tree/BST$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/tree/BST$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/tree/BST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/tree/BST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/tree/InsertNodes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/tree/InsertNodes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/tree/MergeTrees.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/tree/MergeTrees.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/tree/PrintTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/tree/PrintTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/tree/TreeOperations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/tree/TreeOperations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedlist/LinkedInOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/LinkedInOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/GraphPrblem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/JewelsAndStones.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/BST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/InsertNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/InsertNodes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/MergeTrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/MergeTrees.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/PrintTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/PrintTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/TreeOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/TreeOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/array/ProblemSet1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/array/ProblemSet1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/string/Trial.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/string/Trial.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string/Trial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/Trial.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,11 +54,6 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="812" />
-  </component>
   <component name="ProjectId" id="1hin2TIL1PudrYIFXa1eIlIOGwo" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -117,7 +92,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
-  <component name="RunManager" selected="Application.ProblemSet1">
+  <component name="RunManager" selected="Application.EasyProblemSet2">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -125,27 +100,13 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="MediumProblems (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.MediumProblems" />
+    <configuration name="EasyProblemSet2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.EasyProblemSet2" />
       <module name="ProblemSolving" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MediumProblems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graph.MediumProblems" />
-      <module name="ProblemSolving" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,6 +146,20 @@
       <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="ProblemSolving" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Trial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.Trial" />
+      <module name="ProblemSolving" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -234,19 +209,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MediumProblems (1)" />
-      <item itemvalue="Application.MediumProblems" />
       <item itemvalue="Application.Operations" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.ProblemSet1" />
+      <item itemvalue="Application.Trial" />
+      <item itemvalue="Application.EasyProblemSet2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EasyProblemSet2" />
+        <item itemvalue="Application.Trial" />
         <item itemvalue="Application.ProblemSet1" />
         <item itemvalue="Application.Operations" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.MediumProblems" />
-        <item itemvalue="Application.MediumProblems (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -294,7 +269,7 @@
       <workItem from="1604887748178" duration="5008000" />
       <workItem from="1604958456106" duration="1528000" />
       <workItem from="1605852896456" duration="3132000" />
-      <workItem from="1621905068120" duration="241000" />
+      <workItem from="1621905068120" duration="9839000" />
     </task>
     <servers />
   </component>
@@ -306,6 +281,42 @@
       <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state x="208" y="23" width="1024" height="825" key="#Project_Structure/0.23.1440.825@0.23.1440.825" timestamp="1621905089190" />
+    <state x="401" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1621992323972">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="401" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.823@0.23.1440.823" timestamp="1621992323972" />
+    <state x="458" y="188" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1621994611289">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="458" y="188" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.23.1440.823@0.23.1440.823" timestamp="1621994611289" />
+    <state x="180" y="267" key="#xdebugger.evaluate" timestamp="1621992864000">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="180" y="267" key="#xdebugger.evaluate/0.23.1440.823@0.23.1440.823" timestamp="1621992864000" />
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1621997248008">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1621997248008" />
+    <state width="1398" height="205" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1621908268782" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1621997247995">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1621997247995" />
+    <state width="1398" height="205" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1621908268769" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1621997247988">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1621997247988" />
+    <state width="1398" height="205" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1621908268765" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1621997248000">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1621997248000" />
+    <state width="1398" height="205" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1621908268772" />
+    <state x="419" y="217" key="refactoring.ChangeSignatureDialog" timestamp="1621994562519">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="419" y="217" key="refactoring.ChangeSignatureDialog/0.23.1440.823@0.23.1440.823" timestamp="1621994562519" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -317,22 +328,22 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/string/Trial.java</url>
-          <line>14</line>
+          <line>17</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/string/Trial.java</url>
-          <line>28</line>
+          <line>31</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/string/Trial.java</url>
-          <line>24</line>
+          <line>27</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/string/Trial.java</url>
-          <line>45</line>
+          <line>48</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -394,6 +405,16 @@
           <url>file://$PROJECT_DIR$/src/array/ProblemSet1.java</url>
           <line>10</line>
           <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/EasyProblemSet2.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/EasyProblemSet2.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/graph/Operations.java</url>
