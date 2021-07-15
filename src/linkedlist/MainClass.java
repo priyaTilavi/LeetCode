@@ -1,8 +1,6 @@
 package linkedlist;
 
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
+import java.util.*;
 
 public class MainClass {
 
@@ -12,26 +10,22 @@ public class MainClass {
         String[] s={"sad","asd","sadsd"};
         //s.indexOf()
         String m="ddsfdf";
-        System.out.println(m.contains("sd"));
+//        System.out.println(m.contains("sd"));
         Node head=null;
         head= operation.insertNodeAtEnd(head,2);
         head= operation.insertNodeAtEnd(head,5);
         head= operation.insertNodeAtEnd(head,3);
         head= operation.insertNodeAtEnd(head,1);
+//        operation.print(head);
+
+        List<HashMap<Integer,Integer>> list= new ArrayList<>();
+
+
+        head= operation.reverseList(head);
         operation.print(head);
-
-        Node reversedHead=operation.reverseList(head);
-        operation.print(reversedHead);
-
-        Map<String,String> map= new HashMap<>();
-
-//        Iterator<String> = map.entrySet()
-//
-//                for(String s= map){
-//
-//                }
-//
-
+        System.out.println("swap:");
+        Node node = operation.swapPairs(head);
+        operation.print(node);
 
     }
 }

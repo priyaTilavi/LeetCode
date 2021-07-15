@@ -75,6 +75,21 @@ public class LinkedInOperation {
         return merge;
 
     }
+    public Node swapPairs(Node head) {
+        if(head==null || head.next==null) return head;
+        Node n = head;
+        Node prev= head.next;
+        while (n.next!=null && n.next.next!=null){
+            Node first= n;
+            Node second= n.next;
+            Node nextNode = second.next;
+            second.next= first;
+            first.next = nextNode;
+            n= nextNode;
+        }
+
+       return prev;
+    }
 
 
 }

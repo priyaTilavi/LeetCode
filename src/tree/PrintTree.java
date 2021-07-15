@@ -44,7 +44,7 @@ public class PrintTree {
         }
         return root;
     }
-
+    //pre order
     public void printDFS(BST.Node root){
         if(root!=null){
             System.out.println(root.key);
@@ -67,5 +67,14 @@ public class PrintTree {
            bfs(root.left,level-1);
            bfs(root.right,level-1);
         }
+    }
+
+    public void printLeftSideOfTree(BST.Node root){
+        if(root==null) return;
+        while(root!=null){
+            System.out.println(root.key);
+            root = root.left;
+        }
+
     }
 }

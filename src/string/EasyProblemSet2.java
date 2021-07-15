@@ -1,6 +1,8 @@
 package string;
 
+import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Stack;
 
 public class EasyProblemSet2 {
@@ -8,7 +10,7 @@ public class EasyProblemSet2 {
         System.out.println(findLengthOfLastWord("Hi my name is Priya"));
         System.out.println(reverseStringUsingStack("abcdefg"));
         System.out.println(reverseString("abcdefg"));
-        String[] input= {"bcc","arrrr","a32b38","7bljlhhjg"};
+        String[] input= {"bce","bceee","bcry","bc"};
         System.out.println("longest prefix:"+longestCommonPrefix(input));
         String s= "abc";
         System.out.println("test:"+s.indexOf("abc"));
@@ -47,6 +49,7 @@ public class EasyProblemSet2 {
         }
         return String.valueOf(reversed);
     }
+    
     public String longestCommonPrefix1(String[] strs) {
         if(strs == null || strs.length == 0)    return "";
         String pre = strs[0];
@@ -59,11 +62,11 @@ public class EasyProblemSet2 {
         return pre;
     }
     public static String longestCommonPrefix(String[] input){
-        String shortestString = findShortestString(input);
+//        String shortestString = findShortestString(input);
         StringBuilder builder= new StringBuilder("");
-        for(int j=0;j<shortestString.length();j++){
-            char c = shortestString.charAt(j);
-            for(int i=0;i<input.length; i++){
+        for(int j=0;j<input[0].length();j++){
+            char c = input[0].charAt(j);
+            for(int i=1;i<input.length && j<input[i].length(); i++){
                 if(c != input[i].charAt(j)) return builder.toString();
             }
             builder.append(c);
@@ -80,4 +83,20 @@ public class EasyProblemSet2 {
         }
         return shortest;
     }
+    public List<String> fizzBuzz(int n) {
+        ArrayList<String> output = new ArrayList<>();
+        for(int i=0;i<n;i++){
+            if(i%3==0) {
+                output.add("Fizz");
+            } else if(i%5==0) {
+                output.add("Buzz");
+            } else if(i%15==0) {
+                output.add("FizzBuzz");
+            } else{
+                output.add(String.valueOf(i));
+            }
+        }
+        return output;
+    }
+
 }

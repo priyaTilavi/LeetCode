@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ProblemSolving.iml" filepath="$PROJECT_DIR$/ProblemSolving.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leet-code/leet-code.iml" filepath="$PROJECT_DIR$/leet-code/leet-code.iml" />
     </modules>
   </component>
 </project>

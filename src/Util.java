@@ -8,6 +8,9 @@ public class Util {
         LinkedList<Integer> ls= new LinkedList<>();
         ls.add(3);
         ls.add(5);
+        ls.addLast(4);
+        ls.addFirst(1);
+        ls.peek();
 
         //Hash Map
         HashMap<Integer,String> map = new HashMap<>();
@@ -28,13 +31,14 @@ public class Util {
         linkedMap.put(7, "Neha");
 
         //queue
-        LinkedList<Integer> queue = new LinkedList<>();
+        Queue<Integer> queue = new LinkedList<>();
         queue.poll();
         queue.peek();
 
         //stack
         Stack<Integer> stack = new Stack<>();
-        stack.peek();
+        stack.push(1);
+        stack.lastElement();
 
         Iterator it = ls.listIterator();
         Iterator it2 = map.entrySet().iterator();

@@ -41,12 +41,15 @@ public class BST {
         //print.printLeafNodes(root);
         //Node merged= merge.mergeTrees(root,root2);
         //System.out.println("depth="+operations.findDepthOfTheTree(merged));
-        System.out.println("depth="+operations.findDepthOfTheTree(root));
+//        System.out.println("depth="+operations.findDepthOfTheTree(root));
         //print.inorder(merged);
 
         //System.out.println("==>"+operations.isUnivaluated(root));
 //        System.out.println("sum:"+operations.sumAllNodes(root));
-        print.printBFS(root);
+//        print.printBFS(root);
+        print.printLeftSideOfTree(root);
+
+
 
     }
 

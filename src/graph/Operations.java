@@ -25,7 +25,6 @@ public class Operations {
     static void dfs(int node){
         int[] visited= new int[graph.v];
         dfsUtil(node,visited);
-
     }
 
     static void dfsUtil(int node,int[] visited){
@@ -44,7 +43,7 @@ public class Operations {
         boolean[] visited = new boolean[5];
         LinkedList<Integer> queue= new LinkedList<>();
         queue.add(s);
-
+        visited[s]=true;
         while (queue.size() != 0) {
             int node = queue.poll();
             System.out.println(node);
