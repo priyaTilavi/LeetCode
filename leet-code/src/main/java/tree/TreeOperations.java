@@ -71,6 +71,16 @@ public class TreeOperations {
             return root.key + sumAllNodes(root.left)+ sumAllNodes(root.right);
         }
     }
-
+    public boolean isSameTree(BST.Node p, BST.Node q) {
+        if(p==null && q==null) return true;
+        if(p==null && q!=null || p!=null && q==null) return false;
+        if(p.key!=q.key) return false;
+        else
+        {
+            isSameTree(p.left,q.left);
+            isSameTree(p.right,q.right);
+            return true;
+        }
+    }
 
 }

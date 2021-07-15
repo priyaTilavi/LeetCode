@@ -5,59 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7276dc18-48e9-46a6-beae-dbf729f35f3a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_4_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_4_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_4_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_4_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_0_M1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_0_M1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_0_M1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_0_M1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_0_M1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_0_M1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/leet-code.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/LongestPalindrom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/MediumProblemSet1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/Recursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/RemoveAllAdjacent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/StringToInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/LongestPalindromTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/MediumProblemSet1Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/RecursionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/RemoveAllAdjacentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/StringToIntegerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/Traversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/Vertex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/StringFunctions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/EasySet1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/array/ProblemSet1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/graph/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/graph/MediumProblems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/graph/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/graph/Operations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/graph/Traversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/graph/Vertex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/linkedlist/LinkedInOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/linkedlist/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/linkedlist/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/string/EasyProblemSet1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/string/EasyProblemSet2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/string/MediumProblems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/string/StringFunctions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/string/Trial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/string/UniqueEmail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/tree/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/tree/InsertNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/tree/MediumProblems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/tree/MergeTrees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/tree/PrintTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/tree/TreeOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/main/java/tree/TreeOperationsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leet-code/src/test/java/EasySet1Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProblemSolving.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leet-code/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/leet-code/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leet-code/target/classes/MediumProblemSet1.class" beforeDir="false" afterPath="$PROJECT_DIR$/leet-code/target/classes/MediumProblemSet1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/array/ProblemSet1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/array/ProblemSet1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/graph/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/graph/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/graph/Operations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/graph/Operations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/linkedlist/LinkedInOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/linkedlist/LinkedInOperation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/linkedlist/MainClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/linkedlist/MainClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/string/EasyProblemSet2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/string/EasyProblemSet2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/string/MediumProblems.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/string/MediumProblems.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/tree/BST$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/tree/BST$Node.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/tree/BST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/tree/BST.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/tree/PrintTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/tree/PrintTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array/ProblemSet1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/ProblemSet1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/Operations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/Operations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedlist/LinkedInOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/LinkedInOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedlist/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/EasyProblemSet2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/EasyProblemSet2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/MediumProblems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/MediumProblems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProblemSolving/tree/TreeOperations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProblemSolving/tree/TreeOperations.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tree/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/BST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tree/PrintTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/PrintTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/TreeOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/TreeOperations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,8 +104,9 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/leet-code/src/main/java" />
     <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v6.10.3/bin/node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -128,19 +116,37 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="tree" />
       <recent name="" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/leet-code/src/main/java" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.MainClass">
+  <component name="RunManager" selected="JUnit.TreeOperationsTest.isSame">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="BST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.BST" />
+      <module name="ProblemSolving" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linkedlist.MainClass" />
@@ -173,11 +179,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MediumProblemSet1Test.removeDuplicate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EasySet1Test.testMergeSortedArrays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MediumProblemSet1Test" />
-      <option name="METHOD_NAME" value="removeDuplicate" />
+      <option name="MAIN_CLASS_NAME" value="EasySet1Test" />
+      <option name="METHOD_NAME" value="testMergeSortedArrays" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -185,11 +191,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MediumProblemSet1Test.testRomanToInt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EasySet1Test.testSqrt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MediumProblemSet1Test" />
-      <option name="METHOD_NAME" value="testRomanToInt" />
+      <option name="MAIN_CLASS_NAME" value="EasySet1Test" />
+      <option name="METHOD_NAME" value="testSqrt" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -197,22 +203,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveAllAdjacentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leet-code" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RemoveAllAdjacentTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RemoveAllAdjacentTest.testRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leet-code" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RemoveAllAdjacentTest" />
-      <option name="METHOD_NAME" value="testRemove" />
+    <configuration name="TreeOperationsTest.isSame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProblemSolving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tree" />
+      <option name="MAIN_CLASS_NAME" value="tree.TreeOperationsTest" />
+      <option name="METHOD_NAME" value="isSame" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -248,19 +249,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.RemoveAllAdjacentTest.testRemove" />
-      <item itemvalue="JUnit.RemoveAllAdjacentTest" />
-      <item itemvalue="JUnit.MediumProblemSet1Test.testRomanToInt" />
-      <item itemvalue="JUnit.MediumProblemSet1Test.removeDuplicate" />
       <item itemvalue="Application.MainClass" />
+      <item itemvalue="JUnit.EasySet1Test.testSqrt" />
+      <item itemvalue="JUnit.EasySet1Test.testMergeSortedArrays" />
+      <item itemvalue="Application.BST" />
+      <item itemvalue="JUnit.TreeOperationsTest.isSame" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TreeOperationsTest.isSame" />
+        <item itemvalue="Application.BST" />
+        <item itemvalue="JUnit.EasySet1Test.testMergeSortedArrays" />
+        <item itemvalue="JUnit.EasySet1Test.testSqrt" />
         <item itemvalue="Application.MainClass" />
-        <item itemvalue="JUnit.MediumProblemSet1Test.removeDuplicate" />
-        <item itemvalue="JUnit.MediumProblemSet1Test.testRomanToInt" />
-        <item itemvalue="JUnit.RemoveAllAdjacentTest.testRemove" />
-        <item itemvalue="JUnit.RemoveAllAdjacentTest" />
       </list>
     </recent_temporary>
   </component>
@@ -323,7 +324,7 @@
       <workItem from="1625701020956" duration="8000" />
       <workItem from="1625701043798" duration="4430000" />
       <workItem from="1626137410005" duration="847000" />
-      <workItem from="1626322814444" duration="7894000" />
+      <workItem from="1626322814444" duration="12297000" />
     </task>
     <servers />
   </component>
@@ -356,36 +357,36 @@
       <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state x="458" y="188" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.23.1440.823@0.23.1440.823" timestamp="1621994611289" />
-    <state x="81" y="321" key="#xdebugger.evaluate" timestamp="1624174147137">
+    <state x="81" y="321" key="#xdebugger.evaluate" timestamp="1626382351514">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="81" y="321" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1624174147137" />
+    <state x="81" y="321" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1626382351514" />
     <state x="180" y="267" key="#xdebugger.evaluate/0.23.1440.823@0.23.1440.823" timestamp="1621992864000" />
-    <state width="1398" height="236" key="GridCell.Tab.0.bottom" timestamp="1626374777188">
+    <state width="1398" height="236" key="GridCell.Tab.0.bottom" timestamp="1626390722823">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="236" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1626374777188" />
+    <state width="1398" height="236" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1626390722823" />
     <state width="1398" height="236" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1626323510614" />
     <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1621997248008" />
     <state width="1398" height="205" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1621908268782" />
-    <state width="1398" height="236" key="GridCell.Tab.0.center" timestamp="1626374777186">
+    <state width="1398" height="236" key="GridCell.Tab.0.center" timestamp="1626390722822">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="236" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1626374777186" />
+    <state width="1398" height="236" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1626390722822" />
     <state width="1398" height="236" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1626323510612" />
     <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1621997247995" />
     <state width="1398" height="205" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1621908268769" />
-    <state width="1398" height="236" key="GridCell.Tab.0.left" timestamp="1626374777186">
+    <state width="1398" height="236" key="GridCell.Tab.0.left" timestamp="1626390722821">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="236" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1626374777186" />
+    <state width="1398" height="236" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1626390722821" />
     <state width="1398" height="236" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1626323510612" />
     <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1621997247988" />
     <state width="1398" height="205" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1621908268765" />
-    <state width="1398" height="236" key="GridCell.Tab.0.right" timestamp="1626374777187">
+    <state width="1398" height="236" key="GridCell.Tab.0.right" timestamp="1626390722823">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="236" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1626374777187" />
+    <state width="1398" height="236" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1626390722823" />
     <state width="1398" height="236" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1626323510613" />
     <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1621997248000" />
     <state width="1398" height="205" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1621908268772" />
@@ -393,10 +394,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1626323350808" />
-    <state x="499" y="270" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1625707076139">
+    <state x="499" y="270" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1626390515397">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="499" y="270" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900@0.0.1440.900" timestamp="1625707076139" />
+    <state x="499" y="270" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900@0.0.1440.900" timestamp="1626390515397" />
     <state x="458" y="205" key="extract.method.dialog" timestamp="1624173922872">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -483,7 +484,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/tree/PrintTree.java</url>
-          <line>49</line>
+          <line>66</line>
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -565,6 +566,21 @@
           <url>file://$PROJECT_DIR$/src/linkedlist/LinkedInOperation.java</url>
           <line>78</line>
           <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leet-code/src/main/java/EasySet1.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tree/BST.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tree/PrintTree.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="88" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/graph/Operations.java</url>

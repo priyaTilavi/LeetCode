@@ -1,5 +1,8 @@
 package tree;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class PrintTree {
 
 
@@ -36,6 +39,20 @@ public class PrintTree {
         }
         return;
     }
+    public List<Integer> inorderTraversal(BST.Node root) {
+        List<Integer> list= new ArrayList<Integer>();
+        return traversal(root,list);
+
+    }
+    public List<Integer> traversal(BST.Node root, List list) {
+        if(root!=null){
+            traversal( root.left,list);
+            list.add(root.key);
+            traversal( root.right,list);
+        }
+        return list;
+    }
+
 
     public BST.Node findSmallest(BST.Node root) {
         if (root == null) return root;

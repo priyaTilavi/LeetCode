@@ -18,7 +18,7 @@ public class MediumProblems {
     }
 
     static public boolean isNStraightHand(int[] hand, int W) {
-        TreeMap<Integer,Integer> treeMap = new TreeMap<>();
+        TreeMap<Integer,Integer> treeMap = new TreeMap<Integer, Integer>();
         for(int i: hand) {
             if(treeMap.containsKey(i)){
                 treeMap.put(i,treeMap.get(i)+1);

@@ -1,9 +1,6 @@
 package tree;
 
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.Map;
+import java.util.List;
 
 public class BST {
     static class Node {
@@ -20,7 +17,7 @@ public class BST {
     static Node root2;
 
     public static void main(String[] args) {
-        BST object = new BST();
+        BST bst = new BST();
         InsertNodes insert = new InsertNodes();
         PrintTree print = new PrintTree();
         MergeTrees merge = new MergeTrees();
@@ -28,9 +25,12 @@ public class BST {
         int[] treeValues = {4,3,5,1,7};
         int[] tree2Values = {6, 3, 2, 1, 4, 8, 9};
 
+
         //insert
         root = insert.createTreeFromArray(treeValues, root);
         root2 = insert.createTreeFromArray(tree2Values, root2);
+        List<Integer> list = print.inorderTraversal(root);
+        for (Integer i:list) System.out.println(i);
 
         //print.inorder(root);
         //System.out.println("sum:"+operations.deepestLeavesSum(root));
@@ -47,7 +47,7 @@ public class BST {
         //System.out.println("==>"+operations.isUnivaluated(root));
 //        System.out.println("sum:"+operations.sumAllNodes(root));
 //        print.printBFS(root);
-        print.printLeftSideOfTree(root);
+//        print.printLeftSideOfTree(root);
 
 
 

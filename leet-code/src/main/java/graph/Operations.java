@@ -1,10 +1,13 @@
 package graph;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.Map;
 
 public class Operations {
     private static Graph graph;
-    Map<Node,Node> map= new HashMap<>();
+    Map<Node,Node> map= new HashMap<Node,Node>();
     public static void main(String[] args) {
        graph = new Graph(5);
         addEdge(0,1);
@@ -32,16 +35,16 @@ public class Operations {
         System.out.println(node);
         LinkedList<Integer> nodes = graph.adj[node];
         Iterator itr = nodes.listIterator();
-        while(itr.hasNext()){
-            int next = (int) itr.next();
-           if(visited[next]!=1) dfsUtil(next,visited);
-
-        }
+//        while(itr.hasNext()){
+//            int next = (int) itr.next();
+//           if(visited[next]!=1) dfsUtil(next,visited);
+//
+//        }
     }
 
     static void BFS(int s){
         boolean[] visited = new boolean[5];
-        LinkedList<Integer> queue= new LinkedList<>();
+        LinkedList<Integer> queue= new LinkedList<Integer>();
         queue.add(s);
         visited[s]=true;
         while (queue.size() != 0) {
