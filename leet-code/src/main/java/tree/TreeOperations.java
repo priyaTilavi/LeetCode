@@ -43,7 +43,6 @@ public class TreeOperations {
     }
 
     public int findSum(BST.Node root, int level){
-
         if (root==null) return 0;
         if(level== 1) {
             return root.key;
@@ -77,10 +76,17 @@ public class TreeOperations {
         if(p.key!=q.key) return false;
         else
         {
-            isSameTree(p.left,q.left);
-            isSameTree(p.right,q.right);
-            return true;
+            return isSameTree(p.left,q.left) && isSameTree(p.right,q.right) && true;
         }
+    }
+    public BST.Node invertTree(BST.Node root) {
+        if(root==null) return null;
+
+        BST.Node temp= invertTree(root.left);
+        root.left = invertTree(root.right);
+        root.right = temp;
+        return root;
+
     }
 
 }

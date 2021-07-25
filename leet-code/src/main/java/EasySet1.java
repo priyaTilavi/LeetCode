@@ -1,3 +1,6 @@
+import java.util.HashMap;
+import java.util.Map;
+
 public class EasySet1 {
 
     public int mySqrt(int x) {
@@ -34,5 +37,30 @@ public class EasySet1 {
             }
         }
         return nums1;
+    }
+//219. Contains Duplicate II
+//Given an integer array nums and an integer k, return true if there are two distinct indices i and j in the array such that
+// nums[i] == nums[j] and abs(i - j) <= k.
+    public boolean containsNearbyDuplicate(int[] nums, int k) {
+        Map<Integer,Integer> map = new HashMap<Integer,Integer>();
+        int min = Integer.MAX_VALUE;
+        for(int i=0;i<nums.length;i++){
+            if(map.get(nums[i])!=null) {
+                min= Math.min(min,Math.abs(map.get(nums[i])-i));
+            }
+            map.put(nums[i],i);
+        }
+        return (min<=k);
+
+    }
+//231. Power of Two
+    public boolean isPowerOfTwo(int n) {
+        int temp=n;
+        if(n==1) return true;
+        while(temp!=1){
+           if(temp%2!=0) return false;
+           temp=temp/2;
+        }
+        return true;
     }
 }

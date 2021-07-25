@@ -77,10 +77,8 @@ public class EasyProblemSet1 {
     }
     public int numSquares(int num) {
         int temp=0;
-
-       for(int i=0;i<temp&& temp!=0 ;i++){
+        for(int i=0;i<temp&& temp!=0 ;i++){
            temp= (int) Math.floor(Math.sqrt(num));
-
        }
         return temp;
     }
@@ -112,8 +110,7 @@ public class EasyProblemSet1 {
         for(;i<c.length-2;){
             if(c[i+2]!=1){
                 i+=2;
-            }
-            else{
+            } else{
                 i+=1;
             }
             count++;

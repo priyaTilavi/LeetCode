@@ -13,23 +13,18 @@ public class PrintTree {
             System.out.println("leaf"+root.key);
 //            return root;
         }
-
         if(root.left!=null && root.right!= null) {
             printLeafNodes(root.right);
             printLeafNodes(root.left);
 
-        }
-        else{
+        } else {
             if(root.left==null) {
                 printLeafNodes(root.right);
-            }
-            else {
+            } else {
                 printLeafNodes(root.left) ;
             }
         }
-//        return root;
     }
-
 
     public void inorder(BST.Node root){
         if(root!=null) {
@@ -53,7 +48,18 @@ public class PrintTree {
         return list;
     }
 
-
+    public List<Integer> preorderTraversal(BST.Node root) {
+        ArrayList<Integer> list = new ArrayList<>();
+        return preorder(list,root);
+    }
+    public List<Integer> preorder(ArrayList<Integer> list, BST.Node root){
+        if(root!=null){
+            list.add(root.key);
+            preorder(list,root.left);
+            preorder(list,root.right);
+        }
+        return list;
+    }
     public BST.Node findSmallest(BST.Node root) {
         if (root == null) return root;
         while (root.left != null) {
@@ -84,6 +90,10 @@ public class PrintTree {
            bfs(root.left,level-1);
            bfs(root.right,level-1);
         }
+    }
+    public void printNodeAtGivenLevel(BST.Node root, int level){
+        System.out.println("Nodes at level: "+level);
+        bfs(root,level);
     }
 
     public void printLeftSideOfTree(BST.Node root){

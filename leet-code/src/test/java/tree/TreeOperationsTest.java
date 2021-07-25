@@ -3,7 +3,6 @@ package tree;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class TreeOperationsTest {
 
@@ -17,4 +16,5 @@ class TreeOperationsTest {
         tree1.right = new BST.Node(2);
         assertEquals(false,treeOperations.isSameTree(tree1,tree2));
     }
+
 }

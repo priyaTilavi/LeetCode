@@ -25,9 +25,10 @@ public class MainClass {
 
         head= operation.reverseList(head);
         operation.print(head);
-        System.out.println("swap:");
-        Node node = operation.swapPairs(head);
-        operation.print(node);
-
+        System.out.println("insert before:");
+//        Node node = operation.swapPairs(head);
+//        operation.print(node);
+        Node n = operation.insertBeforeNode(head,5,4);
+        operation.print(n);
     }
 }

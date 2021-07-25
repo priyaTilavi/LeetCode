@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Recursion {
 
     public int fibbonacci(int n) {
@@ -13,5 +15,13 @@ public class Recursion {
     public int power(int base, int pow){
         if(pow==0) return 1;
         return base * power(base,pow-1);
+    }
+
+    public boolean check(int[] nums) {
+        int length = nums.length;
+        if(length == 0 || length ==1) return true;
+        if(nums[0]>nums[1]) return false;
+
+        return check(Arrays.copyOfRange(nums,1,length));
     }
 }

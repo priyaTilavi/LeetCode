@@ -11,6 +11,10 @@ public class BST {
             key = value;
             left = right = null;
         }
+        Node() {
+            key = 0;
+            left = right = null;
+        }
     }
 
     static Node root;
@@ -30,7 +34,7 @@ public class BST {
         root = insert.createTreeFromArray(treeValues, root);
         root2 = insert.createTreeFromArray(tree2Values, root2);
         List<Integer> list = print.inorderTraversal(root);
-        for (Integer i:list) System.out.println(i);
+//        for (Integer i:list) System.out.println(i);
 
         //print.inorder(root);
         //System.out.println("sum:"+operations.deepestLeavesSum(root));
@@ -40,21 +44,17 @@ public class BST {
 
         //print.printLeafNodes(root);
         //Node merged= merge.mergeTrees(root,root2);
-        //System.out.println("depth="+operations.findDepthOfTheTree(merged));
+        System.out.println("depth="+operations.findDepthOfTheTree(root2));
 //        System.out.println("depth="+operations.findDepthOfTheTree(root));
         //print.inorder(merged);
 
         //System.out.println("==>"+operations.isUnivaluated(root));
 //        System.out.println("sum:"+operations.sumAllNodes(root));
-//        print.printBFS(root);
-//        print.printLeftSideOfTree(root);
+        print.printBFS(root2);
 
-
+        print.printNodeAtGivenLevel(root2,2);
 
     }
-
-
-
 
 
 }

@@ -22,6 +22,30 @@ public class LinkedInOperation {
         }
         return head;
     }
+    // insert node before this value
+    public Node insertBeforeNode(Node head,int insertBeforeValue, int value){
+        Node newNode= new Node(value);
+        Node prev=null;
+        if(head==null) return newNode;
+        if(head.next==null && head.key==insertBeforeValue) {
+            newNode.next=head;
+            return newNode;
+        }
+        if(head.next==null && head.key!=insertBeforeValue){
+            return head;
+        }
+        else {
+            Node n=head;
+            for(;n.next!=null && n.key!=insertBeforeValue;n=n.next) {
+               prev=n;
+            }
+            if(n.next!=null){
+                newNode.next=n;
+                prev.next=newNode;
+            }
+        }
+        return head;
+    }
 
     public void print(Node head){
         for(Node n=head;n!=null;n=n.next){
@@ -65,15 +89,11 @@ public class LinkedInOperation {
         if(l1.key<l2.key){
             merge = l1;
             merge.next= mergeTwoLists(l1.next, l2);
-
-        }
-        else {
+        } else {
             merge = l2;
             merge.next= mergeTwoLists(l1, l2.next);
         }
-
         return merge;
-
     }
     public Node swapPairs(Node head) {
         if(head==null || head.next==null) return head;
@@ -89,6 +109,17 @@ public class LinkedInOperation {
         }
 
        return prev;
+    }
+    //234. Palindrome Linked List
+    // Given the head of a singly linked list, return true if it is a palindrome.
+    public boolean isPalindrome(Node head) {
+        StringBuilder s= new StringBuilder();
+        for(Node n=head;n!=null;n=n.next){
+            s.append(n.key);
+        }
+        System.out.println(s);
+        System.out.println(s.reverse());
+        return (s.toString().equals(s.reverse().toString()));
     }
 
 

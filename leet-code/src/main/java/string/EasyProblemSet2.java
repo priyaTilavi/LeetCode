@@ -1,5 +1,7 @@
 package string;
 
+import com.sun.deploy.util.StringUtils;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -97,6 +99,19 @@ public class EasyProblemSet2 {
             }
         }
         return output;
+    }
+    public boolean isIsomorphic(String s, String t) {
+        ArrayList<Character> list = new ArrayList<>();
+        for(int i=0;i<s.length();i++){
+            char c = s.charAt(i);
+            if(!list.contains(c)) {
+                list.add(c);
+                char c1 = t.charAt(i);
+                t=t.replaceAll(String.valueOf(c1),String.valueOf(c));
+            }
+        }
+        System.out.println(s+":"+t);
+        return (t.equals(s));
     }
 
 }
