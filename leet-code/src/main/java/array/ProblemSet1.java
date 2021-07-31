@@ -80,4 +80,36 @@ public class ProblemSet1 {
         return globalMax == Integer.MIN_VALUE ? 0 : globalMax;
 
     }
+    public int trailingZeroes(int n) {
+        Long ans=factorial(n);
+        int count=0;
+        System.out.println(ans);
+        while(ans!=0 && ans%10 ==0){
+            count++;
+            ans= ans/10;
+        }
+        return count;
+
+    }
+    public Long factorial(int n){
+        if(n==0 || n==1) return Long.valueOf(1);
+        return n* factorial(n-1);
+    }
+
+    public void printDiagonal(int[][] nums){
+        for(int i=0;i<nums.length;i++){
+            printElement(i,0,nums);
+        }
+        for(int j=1;j<nums.length;j++){
+            printElement(nums.length-1, j,nums);
+        }
+
+    }
+
+    private void printElement(int i, int j, int[][] nums) {
+        if(i<0|| i>=nums.length || j<0|| j>=nums.length) return;
+
+        System.out.println(nums[i][j]);
+        printElement(i-1,j+1,nums);
+    }
 }

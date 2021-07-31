@@ -88,5 +88,33 @@ public class TreeOperations {
         return root;
 
     }
+    public int sumOfLeftLeaves(BST.Node root){
+        return sum(root,false);
+    }
+
+    private int sum(BST.Node root, boolean isLeft) {
+        if(root==null) return 0;
+        if(isLeft && root.left==null && root.right==null){
+            return root.key;
+        }
+        return sum(root.left,true)+ sum(root.right,false);
+    }
+
+    public boolean hasPathSum(BST.Node root, int targetSum) {
+        int totalSum=0;
+       return hasPath(root,targetSum,totalSum);
+    }
+
+    private boolean hasPath(BST.Node root, int targetSum, int totalSum) {
+        if(root==null) return false;
+        if(root.left==null && root.right==null&& totalSum+root.key==targetSum) return true;
+        int sum = totalSum + root.key;
+        return hasPath(root.left,targetSum,sum) || hasPath(root.right,targetSum,sum);
+    }
+
+    public int addNode(BST.Node node){
+        if(node ==null) return 0;
+        return addNode(node.left)+ addNode(node.right)+ 1;
+    }
 
 }

@@ -13,5 +13,11 @@ class EasyProblemSet2Test {
         assertEquals(true,problemSet.isIsomorphic("egg","add"));
         assertEquals(true,problemSet.isIsomorphic("paper","title"));
     }
+    @Test
+    public void testReverseOnlyLetters(){
+        assertEquals("dc-ba",problemSet.reverseOnlyLetters("ab-cd"));
+        assertEquals("j-Ih-gfE-dCba",problemSet.reverseOnlyLetters("a-bC-dEf-ghIj"));
+        assertEquals("Qedo1ct-eeLg=ntse-T!",problemSet.reverseOnlyLetters("Test1ng-Leet=code-Q!"));
 
+    }
 }

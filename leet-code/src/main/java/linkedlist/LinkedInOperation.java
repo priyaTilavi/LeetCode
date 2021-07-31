@@ -121,6 +121,48 @@ public class LinkedInOperation {
         System.out.println(s.reverse());
         return (s.toString().equals(s.reverse().toString()));
     }
+    public Node middleNode(Node head) {
+        int size = getSizeOfLinkedList(head);
+        int middle = (int) Math.ceil(size/2);
+        for (int i=0;i<middle;i++){
+            head=head.next;
+        }
+        return head;
+    }
 
+    private int getSizeOfLinkedList(Node head) {
+        int size=0;
+        for(Node n = head; n!=null; n=n.next){
+            size++;
+        }
+        return size;
+    }
 
+    public Node removeNthFromEnd(Node head, int n) {
+        if(head==null) return null;
+        int index = getSizeOfLinkedList(head)-n;
+        Node prev=null;
+        Node node=head;
+        for(int i=0;i<index;i++,node=node.next){
+            prev=node;
+        }
+        System.out.println(node.key);
+        prev=node.next;
+
+        return head;
+    }
+//138. Copy List with Random Pointer
+    public Node copyRandomList(Node head) {
+        if(head==null) return null;
+        Node newNode=null;
+        Node prev=null;
+        for(Node n=head, copyNode=newNode;n!=null;n=n.next, copyNode=copyNode.next){
+            copyNode = new Node(n.key);
+            prev.next = copyNode;
+//            copyNode.random = new Node();
+
+        }
+
+        return newNode;
+    }
 }

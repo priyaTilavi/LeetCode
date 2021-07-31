@@ -1,3 +1,6 @@
+import com.sun.source.tree.Tree;
+import javafx.util.Pair;
+
 import java.util.*;
 
 public class Util {
@@ -10,7 +13,8 @@ public class Util {
         ls.add(5);
         ls.addLast(4);
         ls.addFirst(1);
-        ls.peek();
+
+        for(Integer i:ls) System.out.println(i);
 
         //Hash Map
         HashMap<Integer,String> map = new HashMap<>();
@@ -30,15 +34,37 @@ public class Util {
         linkedMap.put(1, "Nisha");
         linkedMap.put(7, "Neha");
 
+
         //queue
         Queue<Integer> queue = new LinkedList<>();
         queue.poll();
         queue.peek();
-
+        queue.add(1);
+        queue.remove();
         //stack
         Stack<Integer> stack = new Stack<>();
         stack.push(1);
         stack.lastElement();
+        stack.peek();
+
+        //priority queue
+        PriorityQueue<String> priority = new PriorityQueue<>();
+        priority.add("a");
+        priority.add("b");
+        priority.add("c");
+
+
+
+        //List of Entry
+        List<Pair<Integer,Integer>> entryList = new LinkedList<>();
+//        Map.Entry a = new Map.Entry("a", 2);
+        entryList.add(new Pair(2,2));;
+//        entryList.add(new Entry("b", 2));
+
+        for(String s:priority){
+            System.out.println("priority:"+s);
+        }
+
 
         Iterator it = ls.listIterator();
         Iterator it2 = map.entrySet().iterator();

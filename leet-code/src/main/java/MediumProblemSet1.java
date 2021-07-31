@@ -13,25 +13,37 @@ public class MediumProblemSet1 {
         String s = num + "";
         int level = s.length()-1;
         int remainder=0;
-        while (number>0){
-            int pow = (int) Math.pow(10, level);
-            remainder = number%pow;
-            int key = number / pow - remainder ;
-            if(map.containsKey(key)){
-                output+=map.get(key);
-            }
-            number = remainder;
-        }
+//        while (number>0){
+//            int pow = (int) Math.pow(10, level);
+//            remainder = number%pow;
+//            int key = number / pow - remainder ;
+//            if(map.containsKey(key)){
+//                output+=map.get(key);
+//            }
+//            number = remainder;
+//        }
+        while(number>0){
+            int rem= num%10;
+            if(map.get(rem)!=null) stack.push(map.get(rem));
+            else{
 
+            }
+            number=number/10;
+        }
         return output;
     }
     private void setup(Map<Integer, String> map) {
         map.put(1,"I");
+        map.put(4,"IV");
         map.put(5,"V");
+        map.put(9,"IX");
         map.put(10,"X");
         map.put(50,"L");
+        map.put(90,"XC");
         map.put(100,"C");
+        map.put(400,"CD");
         map.put(500,"D");
+        map.put(900,"CM");
         map.put(1000,"M");
     }
 

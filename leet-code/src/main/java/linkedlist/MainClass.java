@@ -23,12 +23,13 @@ public class MainClass {
         List<HashMap<Integer,Integer>> list= new ArrayList<>();
 
 
-        head= operation.reverseList(head);
+//        head= operation.reverseList(head);
         operation.print(head);
         System.out.println("insert before:");
 //        Node node = operation.swapPairs(head);
 //        operation.print(node);
         Node n = operation.insertBeforeNode(head,5,4);
         operation.print(n);
+        Node node = operation.copyRandomList(head);
     }
 }

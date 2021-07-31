@@ -6,9 +6,9 @@ public class EasySet1 {
     public int mySqrt(int x) {
         if(x==1) return 1;
         for(long i=1;i<=x/2;i++){
-            if(i==46340){
-                System.out.println("here");
-            }
+//            if(i==46340){
+//                System.out.println("here");
+//            }
             if((i*i<=x) && ((i+1)*(i+1)>x)) {
                 return (int)i;
             }
@@ -62,5 +62,38 @@ public class EasySet1 {
            temp=temp/2;
         }
         return true;
+    }
+
+
+
+    public int fillMissingBrackets(String s) {
+
+        if(s.length()%2!=0) return 0;
+        int total=0;
+        for(int i=2;i<=s.length()-2;i+=2){
+            String sub1 = s.substring(0,i);
+            String sub2 = s.substring(i,s.length());
+            if(isBalanced(sub1) && isBalanced(sub2)) {
+                total+=1;
+            }
+        }
+        return total;
+    }
+    public  boolean isBalanced(String s){
+        int countSquare=0;
+        int countBracket=0;
+        int countQuestion=0;
+        char[] charArray= s.toCharArray();
+        for(int i=0;i<s.length();i++){
+            char c= charArray[i];
+            if(c=='(') countBracket++;
+            if(c=='[') countSquare++;
+            if(c=='?') countQuestion++;
+            if(c==')') countBracket--;
+            if(c==']') countSquare--;
+        }
+        System.out.println("=>"+s+" "+countQuestion+" "+ countSquare +" " + countBracket);
+        System.out.println((countQuestion - (countSquare + countBracket) == 0));
+        return (countQuestion - (countSquare + countBracket) == 0);
     }
 }

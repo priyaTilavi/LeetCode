@@ -46,4 +46,18 @@ public class MediumProblems {
 
     }
 
+    //Given a binary tree, determine if it is height-balanced.
+    //a binary tree in which the left and right subtrees of every node differ in height by no more than 1.
+    public boolean isBalanced(BST.Node root) {
+        if (root==null) return true;
+        if(isBalanced(root.left) && isBalanced(root.right)){
+            int left = root.left==null?0:root.left.key;
+            int right = root.left==null?0:root.right.key;
+            root.key = Math.max(left,right)+1;
+            return (Math.abs(left-right ) <= 1);
+        }
+        return false;
+    }
+
+
 }

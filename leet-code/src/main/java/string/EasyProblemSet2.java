@@ -2,10 +2,7 @@ package string;
 
 import com.sun.deploy.util.StringUtils;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Stack;
+import java.util.*;
 
 public class EasyProblemSet2 {
     public static void main(String[] args) {
@@ -51,7 +48,30 @@ public class EasyProblemSet2 {
         }
         return String.valueOf(reversed);
     }
-    
+    public String reverseOnlyLetters(String s) {
+        int start = 0;
+        int end = s.length() - 1;
+        char[] reversed = s.toCharArray();
+        while (start < end) {
+            Character startChar = reversed[start];
+            Character endChar = reversed[end];
+            if (!Character.isLetter(startChar)){
+                start++;
+            }
+            if (!Character.isLetter(endChar)){
+                end--;
+            }
+            if(Character.isLetter(startChar) && Character.isLetter(endChar)){
+                Character temp= reversed[start];
+                reversed[start] = reversed[end];
+                reversed[end] = temp;
+                start++;
+                end--;
+            }
+        }
+        return String.valueOf(reversed);
+    }
+
     public String longestCommonPrefix1(String[] strs) {
         if(strs == null || strs.length == 0)    return "";
         String pre = strs[0];
@@ -62,6 +82,10 @@ public class EasyProblemSet2 {
             i++;
         }
         return pre;
+    }
+    public void test(){
+        HashMap<Character,Integer> map= new HashMap<>();
+        map.put('a',1);
     }
     public static String longestCommonPrefix(String[] input){
 //        String shortestString = findShortestString(input);

@@ -29,4 +29,11 @@ class EasySet1Test {
         assertEquals(true,set1.isPowerOfTwo(0));
 
     }
+
+    @Test
+    public void testbalanced(){
+        assertEquals(1,set1.fillMissingBrackets("(?]["));
+
+    }
+
 }
